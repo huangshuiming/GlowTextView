@@ -208,6 +208,8 @@ public class GlowTextView extends TextView {
 
 到此我们就温故了一个DEMO，最后附上源码，补上可以控制一下发光。
 
+##[源码下载](https://github.com/huangshuiming/GlowTextView)##
+
 
 
 
