@@ -1,4 +1,4 @@
-大家好,今天我们来温故一个 TextView 的demo
+大家好,今天我们来温故一个 TextView 实例的demo
 
 ![](http://img.blog.csdn.net/20150908214127314)
 
@@ -35,7 +35,7 @@ public LinearGradient(float x0, float y0, float x1, float y1, int colors[], floa
             TileMode tile)
 ```
 
-这2分构造方法大体一样,只是上面的着色是一个数组,表现的也可以更丰富一些.让我们就使用第一种构造方法.
+这2种构造方法大体一样,只是上面的着色是一个数组,表现的也可以更丰富一些.让我们就使用第一种构造方法.
 
 首先我们定义一个  LinearGradientTextView extends TextView  
 然后构造我们的着色器,如下
@@ -207,13 +207,14 @@ public class GlowTextView extends TextView {
 ![这里写图片描述](http://img.blog.csdn.net/20150909000142048)
 
 到此我们就温故了一个DEMO，最后附上源码，补上可以控制一下发光。
-
 ##[源码下载](https://github.com/huangshuiming/GlowTextView)##
 
+####在使用 LinearGradient 的过程中,发现通过对坐标的控制还能着色角度####
 
+因为X0,Y0,X1,Y2是可以任意设置的，角度的概念如图：
+![这里写图片描述](http://img.blog.csdn.net/20150909085925166)
 
-
-
+好了,小伙伴们可以更改上面的实例 LinearGradient 的坐标值,看一看其效果。
 
 
 
